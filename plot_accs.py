@@ -19,7 +19,11 @@ def plot_accuracies(json_file):
     plt.xlabel('Epochs')
     plt.ylabel('Accuracy')
     plt.legend()
-
+    # Set y-axis limit to 1
+    plt.ylim(0, 1)
+    # Force x-axis ticks to be integers
+    plt.xticks(list(epochs))
+    
     # Save the plot to a JPG file with the same name as the JSON file
     jpg_file = json_file.replace('.json', '.jpg')
     plt.savefig(jpg_file)
