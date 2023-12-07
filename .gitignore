@@ -1,2 +1,3 @@
 *.pth
 tiny-imagenet-200
+data/tinyimagenet-200
