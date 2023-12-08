@@ -4,7 +4,7 @@
     "batch_size": 128,
     "dataset": "tiny-imagenet-200",
     "dropout_rate": 0,
-    "epochs": 8,
+    "epochs": 10,
     "image_res": 64,
     "l2_regularization_strength": 0,
     "lambda_contrastive": 10,
@@ -12,28 +12,32 @@
     "model_name": "vit_large_patch16_224",
     "num_classes": 200,
     "use_contrastive": false,
-    "use_data_aug": false,
+    "use_data_aug": true,
     "use_pretrained_model": true
   },
   "train_accs": [
-    0.69238,
-    0.88874,
-    0.97639,
-    0.99646,
-    0.99959,
-    0.99976,
-    0.99974,
-    0.97401
+    0.54498,
+    0.73514,
+    0.80937,
+    0.85268,
+    0.89004,
+    0.91689,
+    0.93818,
+    0.94958,
+    0.96178,
+    0.96617
   ],
   "val_accs": [
-    0.6065,
-    0.729,
+    0.508,
+    0.6739,
+    0.7094,
+    0.7244,
+    0.7252,
+    0.7316,
+    0.7301,
+    0.7322,
     0.7321,
-    0.7398,
-    0.7384,
-    0.7444,
-    0.7467,
-    0.7131
+    0.7357
   ],
-  "Num-Epochs": 8
+  "Num-Epochs": 10
 }

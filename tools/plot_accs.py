@@ -22,6 +22,7 @@ def plot_accuracies(json_file):
     # Set y-axis limit to 1
     plt.ylim(0, 1)
     # Force x-axis ticks to be integers
+    plt.yticks([i/20 for i in range(21)])
     plt.xticks(list(epochs))
     
     # Save the plot to a JPG file with the same name as the JSON file
