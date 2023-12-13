@@ -27,7 +27,7 @@ This project is designed for training a deep learning model on a dataset using P
     - 2.1 
         Move tiny-imagenet-200.zip to 'data' directory
     - 2.2
-        Unzip file:
+        Inside /data, unzip file:
         ```bash
         unzip tiny-imagenet-200.zip
         ```
