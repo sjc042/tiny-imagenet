@@ -24,6 +24,10 @@ This project is designed for training a deep learning model on a dataset using P
     ```bash
     conda activate tinyimagenet
     ```
+    To deactivate, run:
+    ```bash
+    conda deactivate
+    ```
 
 5. **Install Dependencies:**
     ```bash
