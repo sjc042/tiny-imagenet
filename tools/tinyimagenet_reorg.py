@@ -1,7 +1,7 @@
 import os
 import shutil
 
-current = os.path.join(os.getcwd(), 'tiny-imagenet-200')
+current = os.path.join('../data', 'tiny-imagenet-200')
 
 # Training data
 train_dir = os.path.join(current, 'train')

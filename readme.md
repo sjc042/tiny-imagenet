@@ -3,6 +3,27 @@
 ## Overview
 This project is designed for training a deep learning model on a dataset using PyTorch in a JupyterNotebook script. The script includes functionalities for data loading, model training, and evaluation. The trained model's performance and training history are saved, and visualizations are generated.
 
+## Getting Started
+1. **Downloading the dataset:**
+
+    To use this code you will first need to download the dataset from
+    it's website: http://cs231n.stanford.edu/tiny-imagenet-200.zip
+
+    Alternatively, you can run the following command in your terminal
+    if you have `wget` installed to download it to your current directory:
+    ```
+    wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
+    ```
+2. **Reorganize diretory:**
+
+    - 2.1 
+        Move tiny-imagenet-200.zip to 'data' directory
+    - 2.2
+        Reorganize the directory structure by running:
+        ```bash
+        python tools/tinyimagenet_reorg.py
+        ```
+
 ## Usage
 1. **Clone the Repository:**
     ```bash
