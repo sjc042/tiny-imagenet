@@ -1,0 +1,33 @@
+{
+  "config": {
+    "SEED": 42,
+    "batch_size": 128,
+    "dataset": "tiny-imagenet-200",
+    "dropout_rate": 0.5,
+    "epochs": 5,
+    "image_res": 64,
+    "l2_regularization_strength": 0,
+    "lambda_contrastive": 10,
+    "learning_rate": 0.00001,
+    "model_name": "vit_large_patch16_224",
+    "num_classes": 200,
+    "use_contrastive": false,
+    "use_data_aug": true,
+    "use_pretrained_model": true
+  },
+  "train_accs": [
+    0.96784,
+    0.97515,
+    0.98014,
+    0.98446,
+    0.9867
+  ],
+  "val_accs": [
+    0.7598,
+    0.7582,
+    0.7606,
+    0.7643,
+    0.7566
+  ],
+  "Num-Epochs": 5
+}
