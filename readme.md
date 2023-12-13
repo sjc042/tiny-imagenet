@@ -27,14 +27,14 @@ This project is designed for training a deep learning model on a dataset using P
     - 2.1 
         Move tiny-imagenet-200.zip to 'data' directory
     - 2.2
-        Inside /data, unzip file:
+        Inside /data/, unzip file:
         ```bash
         unzip tiny-imagenet-200.zip
         ```
     - 2.2
         Reorganize the directory structure by running:
         ```bash
-        python tools/tinyimagenet_reorg.py
+        python ../tools/tinyimagenet_reorg.py
         ```
 4. **Create Conda Environment:**
     ```bash
