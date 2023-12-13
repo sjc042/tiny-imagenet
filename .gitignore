@@ -3,3 +3,4 @@ tiny-imagenet-200
 data/tinyimagenet-200
 data/*.zip
 data/*.pickle
+__pycache__
