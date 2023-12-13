@@ -4,7 +4,15 @@
 This project is designed for training a deep learning model on a dataset using PyTorch in a JupyterNotebook script. The script includes functionalities for data loading, model training, and evaluation. The trained model's performance and training history are saved, and visualizations are generated.
 
 ## Getting Started
-1. **Downloading the dataset:**
+
+
+## Usage
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/sjc042/tiny-imagenet.git
+    cd tiny-imagenet
+    ```
+2. **Downloading the dataset:**
 
     To use this code you will first need to download the dataset from
     it's website: http://cs231n.stanford.edu/tiny-imagenet-200.zip
@@ -14,7 +22,7 @@ This project is designed for training a deep learning model on a dataset using P
     ```
     wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
     ```
-2. **Reorganize diretory:**
+3. **Reorganize diretory:**
 
     - 2.1 
         Move tiny-imagenet-200.zip to 'data' directory
@@ -23,25 +31,17 @@ This project is designed for training a deep learning model on a dataset using P
         ```bash
         python tools/tinyimagenet_reorg.py
         ```
-
-## Usage
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/sjc042/tiny-imagenet.git
-    cd tiny-imagenet
-    ```
-
-2. **Create Conda Environment:**
+4. **Create Conda Environment:**
     ```bash
     conda create --name tinyimagenet python=3.8
     ```
 
-3. **Check Environment:**
+5. **Check Environment:**
     ```bash
     conda list
     ```
 
-4. **Activate the Environment:**
+6. **Activate the Environment:**
     ```bash
     conda activate tinyimagenet
     ```
@@ -50,7 +50,7 @@ This project is designed for training a deep learning model on a dataset using P
     conda deactivate
     ```
 
-5. **Install Dependencies:**
+7. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
