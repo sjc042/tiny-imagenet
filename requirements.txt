@@ -1,0 +1,11 @@
+timm=0.9
+torch=2.0
+torchvision=0.15
+tqdm
+pandas
+numpy
+opencv
+matplotlib
+seaborn
+cudatoolkit=11.2
+cudnn=8.1
