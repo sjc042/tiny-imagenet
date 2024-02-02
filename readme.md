@@ -43,7 +43,7 @@ This project is designed for training a deep learning model on a dataset using P
 
 5. **Check Environment:**
     ```bash
-    conda list
+    conda env list
     ```
 
 6. **Activate the Environment:**
