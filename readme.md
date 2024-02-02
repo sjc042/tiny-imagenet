@@ -1,4 +1,4 @@
-# Deep Learning Model Training Script README
+# Deep Learning Model Training on TinyImagenet-200
 
 ## Overview
 This project is designed for training a deep learning model on a dataset using PyTorch in a JupyterNotebook script. The script includes functionalities for data loading, model training, and evaluation. The trained model's performance and training history are saved, and visualizations are generated.
